@@ -1548,6 +1548,38 @@ section#our-area-slider {
         z-index: 3;
     }
 
+    .circular-stats-wrapper {
+        width: 400px;
+        height: 400px;
+        .image-placeholder {
+            width: 250px;
+            height: 260px;
+        }
+
+        .stat-circle {
+            &.stat-top {
+                top: -40px;
+            }
+            &.stat-top-left {
+                left: -2%;
+            }
+            &.stat-top-right {
+                top: -40px;
+            }
+            &.stat-bottom-right {
+                right: -20%;
+            }
+            &.stat-bottom-left {
+                bottom: 10px;
+                left: 20%; 
+            }
+            &.stat-bottom {
+                bottom: -50px;
+                left: 70%;
+            }
+        }
+    }
+
     @media (max-width: 1200px) {
         &.long-area {
             padding: 0;
