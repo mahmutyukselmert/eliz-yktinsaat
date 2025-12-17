@@ -40,21 +40,29 @@
         <section class="position-relative py-5">
             <div class="container">
                 <div class="row col-lg-11 mx-auto">
-                    <h3 class="mb-5">Küçük ve büyük taneli tahıllar için yüksek kapasiteli ön temizleme.</h3>
-                    <div class="page-banner-content">
-                        <p>
-                            Damas Seed Processing
-                            A/S'nin TOHUM TEMİZLEME VE SINIFLANDIRMA MAKİNELERİ </p>
-                        <p>
-                            Tohum temizliği, istenmeyen ve bazı böcekleri veya mantarları çeken maddeleri ortadan kaldırarak tohum kalitenizi artırır. Temizlenmiş tohumlar ayrıca, yalnızca yararlı tohumları depoladığınız ve saman, toprak ve diğer malzemeleri depolamadığınız için depolama maliyetlerini de düşürür. </p>
-                        <p>
-                            İstenmeyen maddeler içermeyen temiz ve sağlıklı tohumlara ve mikotoksin içermeyen tohum veya tahıllara sahip olmanız, tohum kalitenizi ve ver iminizi artırır. </p>
-                        <p>
-                            Genel olarak; tohum temizliği veriminizi artırdığı için temiz tohum ve tahılın değeri artmaktadır.
-                            Tohum sınıflandırması, ekimlik veya insan tüketimine yönelik tohumlar gibi, tohumlarınızın daha fazla değer katmak üzere işlenmesi anlamına gelir. Tohum kalitesi ve çimlenme standartları hem yerel hem de uluslararası standartlar tarafından düzenlenir. Danimarka standartları, AB'de mümkün olan en yüksek standartlardır.
-                            Hem tohum sınıflandırma makinelerimiz hem de tohum projelerimiz dünya standartlarını karşılayacak şekilde tasarlanmakta, üretilmekte ve mühendisliği yapılmaktadır.
-                        </p>
+                    
+                    <div class="col-lg-4">
+                        <img src="./assets/images/haberler-3.webp" class="img-fluid mb-4 rounded-4" alt="Haber Resmi">
                     </div>
+
+                    <div class="col-lg-8">
+                        <h3 class="mb-5">Küçük ve büyük taneli tahıllar için yüksek kapasiteli ön temizleme.</h3>
+                        <div class="page-banner-content">
+                            <p>
+                                Damas Seed Processing
+                                A/S'nin TOHUM TEMİZLEME VE SINIFLANDIRMA MAKİNELERİ </p>
+                            <p>
+                                Tohum temizliği, istenmeyen ve bazı böcekleri veya mantarları çeken maddeleri ortadan kaldırarak tohum kalitenizi artırır. Temizlenmiş tohumlar ayrıca, yalnızca yararlı tohumları depoladığınız ve saman, toprak ve diğer malzemeleri depolamadığınız için depolama maliyetlerini de düşürür. </p>
+                            <p>
+                                İstenmeyen maddeler içermeyen temiz ve sağlıklı tohumlara ve mikotoksin içermeyen tohum veya tahıllara sahip olmanız, tohum kalitenizi ve ver iminizi artırır. </p>
+                            <p>
+                                Genel olarak; tohum temizliği veriminizi artırdığı için temiz tohum ve tahılın değeri artmaktadır.
+                                Tohum sınıflandırması, ekimlik veya insan tüketimine yönelik tohumlar gibi, tohumlarınızın daha fazla değer katmak üzere işlenmesi anlamına gelir. Tohum kalitesi ve çimlenme standartları hem yerel hem de uluslararası standartlar tarafından düzenlenir. Danimarka standartları, AB'de mümkün olan en yüksek standartlardır.
+                                Hem tohum sınıflandırma makinelerimiz hem de tohum projelerimiz dünya standartlarını karşılayacak şekilde tasarlanmakta, üretilmekte ve mühendisliği yapılmaktadır.
+                            </p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>

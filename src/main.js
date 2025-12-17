@@ -278,29 +278,6 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     }
   });
-
-  /*const swiper3 = new Swiper('.carouselSlider', {
-    slidesPerView: 1,
-    loop: true,
-    autoplay: {
-      delay: 4000,
-      disableOnInteraction: false,
-    },
-    speed: 500,
-    effect: 'slide',
-    navigation: {
-      nextEl: '.carousel-control-next',
-      prevEl: '.carousel-control-prev',
-    },
-    breakpoints: {
-      320: {
-        slidesPerView: 1
-      },
-      768: {
-        slidesPerView: 1
-      }
-    }
-  });*/
 });
 
 // İki modalı da bir dizi (array) içinde tanımlıyoruz

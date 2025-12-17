@@ -858,6 +858,9 @@ main {
       font-size: 1.125rem;
       font-weight: 500;
     }
+    .card-img-overlay {
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 20%, transparent 100%);
+    }
   }
 
   a {

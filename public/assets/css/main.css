@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*!
- * Bootstrap  v5.3.7 (https://getbootstrap.com/)
+ * Bootstrap  v5.3.8 (https://getbootstrap.com/)
  * Copyright 2011-2025 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
@@ -536,6 +536,10 @@ legend + * {
 [type=search] {
   -webkit-appearance: textfield;
   outline-offset: -2px;
+}
+[type=search]::-webkit-search-cancel-button {
+  cursor: pointer;
+  filter: grayscale(1);
 }
 
 /* rtl:raw:
@@ -6206,6 +6210,7 @@ textarea.form-control-lg {
 .spinner-grow,
 .spinner-border {
   display: inline-block;
+  flex-shrink: 0;
   width: var(--bs-spinner-width);
   height: var(--bs-spinner-height);
   vertical-align: var(--bs-spinner-vertical-align);
@@ -12858,12 +12863,6 @@ textarea.form-control-lg {
 
 .home-projects-section {
   margin-bottom: 6rem;
-  /* Görünür Alan (Viewport) */
-  /* Kaydırılabilir Alan (Track) */
-  /* Her bir Carousel Öğesi (Kartın Kapsayıcısı) */
-  /* Carousel Kontrolleri (Oklar) */
-  /* Aktif (Ortadaki) Kart */
-  /* Responsive Ayarlamalar */
 }
 .home-projects-section .custom-carousel-container {
   position: relative;
@@ -12871,14 +12870,23 @@ textarea.form-control-lg {
   margin: 0 auto;
   padding: 0;
 }
+.home-projects-section {
+  /* Görünür Alan (Viewport) */
+}
 .home-projects-section .custom-carousel-viewport {
   overflow: hidden;
   border-radius: 0;
+}
+.home-projects-section {
+  /* Kaydırılabilir Alan (Track) */
 }
 .home-projects-section .custom-carousel-track {
   display: flex;
   transition: transform 0.5s ease-in-out;
   align-items: center;
+}
+.home-projects-section {
+  /* Her bir Carousel Öğesi (Kartın Kapsayıcısı) */
 }
 .home-projects-section .custom-carousel-item {
   flex-shrink: 0;
@@ -13007,6 +13015,9 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: space-between;
 }
+.home-projects-section {
+  /* Carousel Kontrolleri (Oklar) */
+}
 .home-projects-section .carousel-control-btn {
   position: absolute;
   top: 0;
@@ -13040,6 +13051,9 @@ textarea.form-control-lg {
 }
 .home-projects-section .carousel-control-next-btn {
   right: 0;
+}
+.home-projects-section {
+  /* Aktif (Ortadaki) Kart */
 }
 .home-projects-section .custom-carousel-item.active-center {
   width: 50%;
@@ -13100,6 +13114,9 @@ textarea.form-control-lg {
   .home-projects-section .card-right-image img {
     max-height: 500px;
   }
+}
+.home-projects-section {
+  /* Responsive Ayarlamalar */
 }
 @media (min-width: 1600px) {
   .home-projects-section .card-left-content {
@@ -13528,10 +13545,6 @@ section#our-area-slider .hover-accordion .card.shrink .card-title {
   overflow: hidden;
   padding: 6rem 0;
   max-height: 785px;
-  /* Arka plan görseli için (Gerekiyorsa) */
-  /* Tüm içeriği öne getirmek için */
-  /* Sağ taraftaki dairesel istatistik konteyneri */
-  /* Küçük etiketler için stil */
 }
 .company-stats-section.long-area {
   padding: 6rem 0 16rem 0;
@@ -13566,6 +13579,9 @@ section#our-area-slider .hover-accordion .card.shrink .card-title {
   z-index: 1;
   mix-blend-mode: normal;
 }
+.company-stats-section {
+  /* Arka plan görseli için (Gerekiyorsa) */
+}
 .company-stats-section .background-image-container {
   background-image: url("./images/kurumsal-sag-1.webp"); /* Görsel yolu */
   background-size: cover;
@@ -13578,6 +13594,9 @@ section#our-area-slider .hover-accordion .card.shrink .card-title {
   height: 100%;
   opacity: 0.1; /* Görselin soluk olması için */
   z-index: 0;
+}
+.company-stats-section {
+  /* Tüm içeriği öne getirmek için */
 }
 .company-stats-section .container {
   position: relative;
@@ -13633,6 +13652,9 @@ section#our-area-slider .hover-accordion .card.shrink .card-title {
 .company-stats-section .custom-card-style .btn-link:hover svg {
   color: #fff;
 }
+.company-stats-section {
+  /* Sağ taraftaki dairesel istatistik konteyneri */
+}
 .company-stats-section .circular-stats-wrapper {
   align-items: center;
   width: 488px;
@@ -13640,7 +13662,6 @@ section#our-area-slider .hover-accordion .card.shrink .card-title {
   border: 1px solid #637988;
   border-radius: 50%;
   padding: 0;
-  /* İstatistik daireleri */
 }
 .company-stats-section .circular-stats-wrapper .center-image-card {
   position: relative;
@@ -13660,6 +13681,9 @@ section#our-area-slider .hover-accordion .card.shrink .card-title {
   background-color: #26455a;
   border-radius: 50%;
 }
+.company-stats-section .circular-stats-wrapper {
+  /* İstatistik daireleri */
+}
 .company-stats-section .circular-stats-wrapper .stat-circle {
   width: 130px;
   height: 130px;
@@ -13672,8 +13696,6 @@ section#our-area-slider .hover-accordion .card.shrink .card-title {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* === GRADIENT HALKA (BORDER) ::BEFORE İLE OLUŞTURULUYOR === */
-  /* Her bir dairenin mutlak konumu */
 }
 .company-stats-section .circular-stats-wrapper .stat-circle output {
   font-size: 3rem;
@@ -13703,6 +13725,9 @@ section#our-area-slider .hover-accordion .card.shrink .card-title {
   font-size: 18px;
   font-weight: 500;
 }
+.company-stats-section .circular-stats-wrapper .stat-circle {
+  /* === GRADIENT HALKA (BORDER) ::BEFORE İLE OLUŞTURULUYOR === */
+}
 .company-stats-section .circular-stats-wrapper .stat-circle::after {
   content: "";
   position: absolute;
@@ -13724,6 +13749,9 @@ section#our-area-slider .hover-accordion .card.shrink .card-title {
   height: 140px;
   border-radius: 50%;
   z-index: -2;
+}
+.company-stats-section .circular-stats-wrapper .stat-circle {
+  /* Her bir dairenin mutlak konumu */
 }
 .company-stats-section .circular-stats-wrapper .stat-circle.stat-top {
   top: 0;
@@ -13773,6 +13801,9 @@ section#our-area-slider .hover-accordion .card.shrink .card-title {
 }
 .company-stats-section .circular-stats-wrapper .stat-circle.stat-top-left p {
   right: 100%;
+}
+.company-stats-section {
+  /* Küçük etiketler için stil */
 }
 .company-stats-section .tiny-label {
   font-size: 0.65rem;
@@ -13834,10 +13865,6 @@ section#our-area-slider .hover-accordion .card.shrink .card-title {
     top: 0;
     height: 280px;
   }
-  .company-stats-section .circular-stats-wrapper .stat-circle {
-    width: 110px;
-    height: 110px;
-  }
   .company-stats-section .circular-stats-wrapper .stat-circle::before {
     top: -5px;
     left: -5px;
@@ -13849,6 +13876,10 @@ section#our-area-slider .hover-accordion .card.shrink .card-title {
     left: -2px;
     width: 115px;
     height: 115px;
+  }
+  .company-stats-section .circular-stats-wrapper .stat-circle {
+    width: 110px;
+    height: 110px;
   }
   .company-stats-section .circular-stats-wrapper .stat-circle output {
     font-size: 2rem;
@@ -15332,7 +15363,6 @@ button.swiper-pagination-bullet {
 
 main {
   position: relative;
-  padding: 0rem 0 0 0;
 }
 main.sub-page-main {
   background: #f9f9f9;
@@ -15348,6 +15378,9 @@ main.sub-page-main .products-section p {
   font-weight: 500;
   font-size: 2.25rem;
   color: #000000;
+}
+main {
+  padding: 0rem 0 0 0;
 }
 main .page-header-section {
   padding: 3rem 0 0 0;
@@ -15390,12 +15423,14 @@ main .page-banner nav ol.breadcrumb li.breadcrumb-item.active {
 main .page-banner.hero-banner {
   padding: 0;
   margin: 0;
-  max-height: 535px;
-  height: 535px;
 }
 main .page-banner.hero-banner::before {
   opacity: 0;
   visibility: hidden;
+}
+main .page-banner.hero-banner {
+  max-height: 535px;
+  height: 535px;
 }
 main .page-banner.hero-banner img {
   border-radius: 1.5625rem;
@@ -15785,6 +15820,9 @@ main .about-content-section img.left-image {
   font-size: 1.125rem;
   font-weight: 500;
 }
+.last-news-section .card .card-img-overlay {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 20%, transparent 100%);
+}
 .last-news-section a {
   transition: all 0.5s ease-in-out;
 }
@@ -16075,7 +16113,6 @@ main .about-content-section img.left-image {
 .home-pagevideo-section {
   background-color: #f8f8f8;
   position: relative;
-  /* Küçük resimler için düzenleme */
 }
 .home-pagevideo-section::before {
   content: "";
@@ -16170,6 +16207,9 @@ main .about-content-section img.left-image {
 }
 .home-pagevideo-section .play-button:hover {
   transform: translate(-50%, -50%) scale(1.1);
+}
+.home-pagevideo-section {
+  /* Küçük resimler için düzenleme */
 }
 .home-pagevideo-section .thumbnails-container {
   position: absolute;

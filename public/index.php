@@ -285,6 +285,7 @@
     </main>
 
     <?php include 'include/footer.html'; ?>
+    <script src="assets/js/slider.min.js"></script> <!-- Slider JS Sadece Ana Sayfada Yüklüyorum -->
 </body>
 
 </html>

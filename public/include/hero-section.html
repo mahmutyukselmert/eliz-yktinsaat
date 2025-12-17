@@ -1,9 +1,9 @@
 <section class="hero bg-gradient-primary">
     <div class="container">
         <section id="hero-slider" class="position-relative">
-            <div id="carouselSlider" class="carousel slide swiper-container" data-bs-ride="carousel">
+            <div id="carouselSlider" class="carousel slide">
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
+                    <div class="carousel-item active" data-type="image" data-interval="5000">
                         <!-- İlk slayt active classı almalı -->
                         <img src="./assets/images/slider.webp" alt="" class="img-fluid">
                         <div class="carousel-caption text-start">
@@ -26,14 +26,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item" data-type="video">
                         <!-- Buarada matreklam tarzı mobil ve masaüstü ayrı videolar olacakmış o yüzden init.php deki isMobileDevice burada da kullanılıp adminden farklı video url getireilebilir. -->
                         <video class="hero-video" muted autoplay playsinline>
-                            <source src="https://ttajans.eliz.net.tr/assets/uploads/havacekimi_video11.mp4"
-                                type="video/mp4">
+                            <source src="./assets/media/adana-yurt-binasi.mp4" type="video/mp4">
                         </video>
                     </div>
-                    <div class="carousel-item">
+                    
+                    <div class="carousel-item" data-type="image" data-interval="5000">
                         <!-- İlk slayt active classı almalı -->
                         <img src="./assets/images/slider.webp" alt="" class="img-fluid">
                         <div class="carousel-caption text-start">
