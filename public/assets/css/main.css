@@ -12967,6 +12967,7 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: center;
   transition: all 0.5s ease-in-out;
+  flex-shrink: 0;
 }
 .home-projects-section .custom-carousel-item .custom-carousel-card-wrapper .card-slide-project .card-right-image .card-content-bottom a:hover {
   transform: scale(1.1);
@@ -15402,6 +15403,8 @@ main .page-banner img {
   width: 50%;
   height: 100%;
   object-fit: cover;
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 100%);
+  mask-image: linear-gradient(to right, transparent 0%, black 100%);
 }
 main .page-banner nav ol.breadcrumb li.breadcrumb-item {
   font-size: 0.875rem;
@@ -16326,7 +16329,7 @@ main .about-content-section img.left-image {
   padding: 1rem 0 0 0;
 }
 .products-list-section .product-card .hero-left-content .hero-left-content-heading span {
-  position: absolute;
+  position: relative;
   top: 1rem;
   right: 1rem;
   border: 1px solid #ccc;
@@ -16337,12 +16340,17 @@ main .about-content-section img.left-image {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
   transition: all 0.5s ease-in-out;
 }
 .products-list-section .product-card .hero-left-content h3 {
   font-size: 1.5rem;
   color: #4d4d4d;
   font-weight: 700;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .products-list-section .product-card .hero-left-content span {
   font-size: 1rem;
@@ -16371,7 +16379,7 @@ main .about-content-section img.left-image {
   position: relative;
   background-color: #fff;
   border-radius: 20px;
-  padding: 3rem 0;
+  padding: 2rem 1.5rem;
 }
 .project-detail-section .product-addional-card ul {
   padding: 0 2.5rem;
